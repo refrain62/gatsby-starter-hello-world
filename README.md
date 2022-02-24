@@ -39,6 +39,11 @@ module.exports = {
 
 ```
 
+![HASURA - table](/description/hasura_table.jpg) 
+![HASURA - graphql](/description/hasura_graphql.jpg) 
+
+![Gatsby - graphql](/description/Gatsby_graphQL.jpg) 
+![Gatsby - 実行](/description/Gatsby_execute.jpg) 
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
