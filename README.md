@@ -1,3 +1,22 @@
+# Gatsbyサンプル
+
+# プロジェクトの作成
+```
+npx gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
+
+# プロジェクトの起動
+```
+cd gatsby-starter-hello-world
+gatsby develop
+```
+
+http://localhost:8000/
+
+http://localhost:8000/___graphql
+  
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
