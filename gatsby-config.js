@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "HASURA",
+        fieldName: "hasura",
+        url: "http://10.5.1.43:8081/v1/graphql",
+      },
+    }
+  ],
 }

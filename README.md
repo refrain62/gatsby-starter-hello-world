@@ -1,4 +1,4 @@
-# Gatsbyサンプル
+# Gatsbyサンプル ＋ HASURA(GraphQL + PostgreSQL)
 
 # プロジェクトの作成
 ```
@@ -15,6 +15,30 @@ http://localhost:8000/
 
 http://localhost:8000/___graphql
   
+
+# gatsby-source-graphql のインストール
+```
+npm install --save gatsby-source-graphql
+```
+
+# gatsby-config.js への追記
+```
+module.exports = {
+  /* Your site config here */
+  plugins: [
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "HASURA",
+        fieldName: "hasura",
+        url: "http://10.5.1.43:8081/v1/graphql",
+      },
+    }
+  ],
+}
+
+```
+
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
